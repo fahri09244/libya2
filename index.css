@@ -1,0 +1,60 @@
+body {
+    background: linear-gradient(to right, #1B5E20, #66BB6A); /* خلفية بدرجات الأخضر */
+    color: #F1F8E9; /* لون فاتح للوضوح */
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
+
+.container {
+    margin-top: 100px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #C0E57C; /* لون أخضر فاتح */
+}
+
+#chat-username-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.85);
+    border: none;
+    border-radius: 8px;
+}
+
+.form-control:focus {
+    background: white;
+    border-color: #AED581; /* لون أخضر فاتح */
+    box-shadow: 0 0 7px #AED581;
+}
+
+button {
+    background-color: #388E3C; /* لون أخضر غامق */
+    border: 2px solid #2E7D32;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    font-size: 17px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #2E7D32;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(0);
+}
